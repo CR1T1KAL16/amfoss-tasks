@@ -2,7 +2,7 @@
  
 ## SELF INTRO
 Hello!<br>
-I'm Mukund Menon, currently in my first semester pursuing Computer Science Engineering. The way we can bring our ideas and creativity to life on the digital canvas with just a few lines of code is what interests me, and the ever-evolving nature of this field is what's keeping me intrigued. I'm also thrilled to explore the other "twigs" in this branch of CSE, and find where I belong.
+I'm Mukund Menon, currently in my first semester pursuing Computer Science Engineering. The way we can bring our ideas and creativity to life on the digital canvas with just a few lines of code is what interests me, and the ever-evolving nature of this field is what's keeping me intrigued. I'm also thrilled to explore the other "twigs" in this branch of CSE, and find a place where I belong.
 
 ## INTROSPECTION
 ### WHY MUST YOU CHOOSE ME?
