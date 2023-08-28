@@ -20,8 +20,16 @@ helps to navigate between different directories
 ## git add .
 to add a file to a repository
 ## git commit 
-commits the new changes and also makes a log of it
+permanently saves your changes and also makes a log of it
 ## git push
 pushes the changes to the remote repository
 ## git init
 initializes a repository in your current directory.
+## git fetch
+to download something from a given local repository
+## git merge
+if any changes are made in local repository, it merges with the branch you're working on.
+## git stash
+temporarily saves your changes
+## git config
+to change settings or something similar to that
