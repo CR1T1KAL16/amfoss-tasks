@@ -1,0 +1,1 @@
+Competitive programming was really fun and challenging too. The satisfaction after getting all test cases right was the driving force for me. But then I realised I was spending too much time on solving these questions, so I gave it less priority and solved it when i had breaks in class, when I feel sleepy, etc. Anyways, it was really challenging yet satisfying challenge.
