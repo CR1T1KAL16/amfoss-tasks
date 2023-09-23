@@ -1,0 +1,101 @@
+.we_are {
+  font-family: "Rowdies", sans-seriff;
+  font-size: 50px;
+  position: absolute;
+  top: 72%;
+  left: 42%;
+}
+
+.imaginedragons {
+  position: absolute;
+  top: 88%;
+  left: 23%;
+  width: 1000px;
+}
+
+.backdrop {
+  width: 100%;
+  height: auto;
+}
+
+.explore-shop {
+  position: absolute;
+  top: 102%;
+  left: 42.5%;
+}
+
+.shop {
+  background-color: #0D1335;
+  width: 100%;
+  height:auto;
+}
+
+.table {
+  margin-top: 20%;
+  position: absolute;
+  background-color: #0D1335;
+  width: 10%;
+
+
+ 
+  
+}
+.cell-content {
+  width: 200px; 
+  border: 0.5px solid #ccc; 
+  padding: 10px; 
+  margin: 10px; 
+  display: inline-block; 
+  text-align: center;
+  background-color: #0B0B21;
+  border-radius: 10%;
+}
+
+.spotify {
+  width: 34px;
+}
+body {
+  background-color: #0D1335;
+  opacity: 1;
+  filter: brightness(100%);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center vertically */
+  align-items: center; /* Center horizontally */
+}
+.navbar-top {
+ 
+  position: fixed; /* Set position to fixed to stick to the top */
+  top: 0; /* Align to the top */
+  left: 0; /* Align to the left */
+  right: 0; /* Align to the right */
+  background-color: rgba(11, 11, 33, 0.8); /* Translucent black color */
+  padding: 10px; /* Add some padding to the navigation bar */
+  padding-left: 1700px;
+  display: flex;
+  justify-content: space-between; /* Distribute items to the left and right */
+  align-items: center; /* Center items vertically */
+}
+
+h4 {
+  color: #ffffff;
+}
+p {
+  color: #ffffff;
+}
+.bgimage {
+  background-color: rgba(11, 11, 33, 0.8);
+  width:40px;  
+  position: absolute;
+  top: 4%;
+  left:1%;
+
+
+  
+}
