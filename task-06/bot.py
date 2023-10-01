@@ -15,6 +15,7 @@ async def on_message(message):
         scrape_livescore()
         with open('cricket_scores.csv', 'r') as file:
             last_row = file.readlines()[-1]
+        # unpack the last row and format it
         team1, over1, score1, team2, over2, score2, result, timestamp = last_row.split(',')
         response = f'Team 1: {team1} {over1} {score1}\nTeam 2: {team2} {over2} {score2} \n {result} \n {timestamp}'
         
@@ -22,24 +23,20 @@ async def on_message(message):
         await message.channel.send(response)
 
     elif message.content.startswith('!generate'):
-        # Send the CSV data as a message to the user
-        # file=scrape_livescore()
-        
-        # csv_file=discord.File(file,filename="cricket_scores.csv")
         # await message.channel.send(file=csv_file)
         with open('cricket_scores.csv', 'r') as file:
             csv_contents = file.read()
             
             # Check if the file is not None
             if csv_contents:
-                # Send the CSV file
+                # send csv file to user
                 csv_file = discord.File('cricket_scores.csv')
                 await message.channel.send(file=csv_file)
             else:
                 await message.channel.send('Error generating the CSV file.')
         
     elif message.content.startswith('!help'):
-        # Send the list of commands and their description
+        # send the list of commands and their description
         response = 'Commands:\n!livescore - Get the live feed on the crux of the match.\n!generate - Get the CSV file that contains the list of all the live scores that have been fetched (along with the timestamp).\n!help - Get a list of the commands along with their description.'
         await message.channel.send(response)
 

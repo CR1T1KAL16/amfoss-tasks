@@ -6,8 +6,12 @@
       name="viewport"
       content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
     />
+     <!-- setting up title of the website, and calling bebas neue font for "explore-shop" button -->
     <title>Imagine Dragons</title>
     <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
   </head>
   <body>
     <nav class="navbar-top">
@@ -46,8 +50,10 @@
       <b> WE ARE </b>
     </p>
 
-    <a href="shop.html" class="shop"
-      ><img class="explore-shop" src="assets/explore-shop.png" alt="shop"
+    <div class="explore-shop">
+      <button type="button"><a href="shop.html" style="text-decoration: none;"><span class="button_text">Explore Shop</span></a><img src="arrow-next.svg"></button>
+    </div>
+
     /></a>
   </body>
 </html>

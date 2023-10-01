@@ -18,10 +18,23 @@
   height: auto;
 }
 
-.explore-shop {
+button {
   position: absolute;
-  top: 102%;
-  left: 42.5%;
+  display: inline-flex;
+  top: 100%;
+  left: 42%;
+  height: 70px;
+  width: 259px;
+  background-color: #2BDAE1;
+  border-radius: 10px;
+  border: none;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 35px;
+  font-weight: 500;
+  padding:22px;
+  align-items: center;
+
+
 }
 
 .shop {
@@ -33,14 +46,11 @@
 .table {
   margin-top: 20%;
   position: absolute;
-  background-color: #0D1335;
   width: 10%;
 
-
- 
   
 }
-.cell-content {
+.cells {
   width: 200px; 
   border: 0.5px solid #ccc; 
   padding: 10px; 
@@ -91,11 +101,10 @@ p {
 }
 .bgimage {
   background-color: rgba(11, 11, 33, 0.8);
-  width:40px;  
+  width:40px; 
+   
   position: absolute;
   top: 4%;
-  left:1%;
-
-
-  
+  left:1%; 
 }
+
