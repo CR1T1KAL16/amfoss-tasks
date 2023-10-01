@@ -1,0 +1,2 @@
+Felt really good doing this task. Makes you seem like you're actually doing something which is also helpful to a lot of people. I often spend some time too just checking weather forecast in different countries. Had to learn basics of Javascript which took time but in the end it was worth it. html, css and js are a wonderful combo.
+The syntax in js was quite confusing though. I spent a lot of time fixing syntax errors, and also the code looks intimidating as well, with the arrows and the dollar signs, making it even more confusing. But it ended with a good note.
