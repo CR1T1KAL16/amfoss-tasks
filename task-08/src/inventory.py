@@ -10,23 +10,21 @@ import pokemon_list
 class pokeInventory(QMainWindow):
     def __init__(self, image_folder):
         super().__init__()
+        # assign variables with images in any image folder(pokemon_list in this case)
         self.image_folder = image_folder
         self.image_files = [f for f in os.listdir(image_folder) if f.lower().endswith((".jpeg", ".jpg","png"))]
         self.current_index = 0
         self.setFixedSize(850, 500)
-
         self.central_widget = QWidget(self)
         self.setCentralWidget(self.central_widget)
-
         self.image_label = QLabel(self)
         self.image_label.setAlignment(Qt.AlignmentFlag.AlignCenter)
 
         self.prev_button = QPushButton("Previous", self)
         self.prev_button.clicked.connect(self.show_previous_image)
-
         self.next_button = QPushButton("Next", self)
         self.next_button.clicked.connect(self.show_next_image)
-
+        # set up space for the buttons and the images
         layout = QVBoxLayout(self.central_widget)
         layout.addWidget(self.image_label)
         layout.addWidget(self.prev_button)
